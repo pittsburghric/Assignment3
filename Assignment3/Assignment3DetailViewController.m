@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:_url]]];
+    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://en.wikipedia.org/wiki/Banana"]]];
 }
 
 
